@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title>UTA CMS</title>
+        <link rel="stylesheet" href="./student-dashboard.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,200" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="./styles.css"> 
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <!-- Start of logic for implementing a simple Navbar -->
+        
+        <div id="navbar">
+            <ul>
+                <li><a class="active" href="./homepage.html"><img id="uta-logo" src="./static/uta-logo.png" /></a></li>
+                <li style="float:right; margin-right: 4%;"><a href="./homepage.html"><button class="orange-button">Logout</button></a></li>
+                <li style="float:right"><a href="#contact">Course Catalogue</a></li>
+                <li style="float:right"><a href="#about">Messages</a></li>
+                <li style="float:right"><a href="#about">Grades</a></li>
+                <li style="float:right"><a href="#about">Profiles</a></li>
+            </ul>
+        </div>
+
+        <!-- End of Navbar implementation in Homepage -->
+
+        <!-- Dashboard landing page start -->
+
+        <div id="dashboard-page">
+            <div id="page-label">
+                <h4><a href="./student-dashboard.html">Dashboard</a> >> </h4>
+            </div>
+            <div id="username">
+                <h3>Welcome Username</h3>
+            </div>
+            <div class="card-group" id="student-subjects">
+                <h4>Current Courses: </h4>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="card">
+                                <div class="card-title1">
+                                    <h4>
+                                        Web Data<br>Management
+                                    </h4>
+                                </div>
+                                <div class="container">
+                                    <h4><b>CSE 5335-002</b></h4>
+                                    <h4>Fall 2023</h4>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card">
+                                <div class="card-title2">
+                                    <h4>
+                                        DBMS Models &<br>Implementations
+                                    </h4>
+                                </div>
+                                <div class="container">
+                                    <h4><b>CSE 5331-003</b></h4>
+                                    <h4>Fall 2023</h4>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card">
+                                <div class="card-title3">
+                                    <h4>
+                                        Advanced Database<br>Systems
+                                    </h4>
+                                </div>
+                                <div class="container">
+                                    <h4><b>CSE 6331-001</b></h4>
+                                    <h4>Fall 2023</h4>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-bottom: 0%;">
+                            <h4>Previous Courses: </h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="card">
+                                <div class="card-title1">
+                                    <h4>
+                                        Artificial Intelligence
+                                    </h4>
+                                </div>
+                                <div class="container">
+                                    <h4><b>CSE 5360-003</b></h4>
+                                    <h4>Spring 2023</h4>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card">
+                                <div class="card-title2">
+                                    <h4>
+                                        Software<br>Testing
+                                    </h4>
+                                </div>
+                                <div class="container">
+                                    <h4><b>CSE 5335-006</b></h4>
+                                    <h4>Spring 2023</h4>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card">
+                                <div class="card-title3">
+                                    <h4>
+                                        Computer Vision
+                                    </h4>
+                                </div>
+                                <div class="container">
+                                    <h4><b>CSE 6334-001</b></h4>
+                                    <h4>Spring 2023</h4>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Dashboard Page Ending -->
+    </body>
+</html>
