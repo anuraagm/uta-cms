@@ -8,49 +8,6 @@ body {
     padding: 0;
   }
   
-  /* Navbar CSS Start */
-  /* Style from https://www.w3schools.com/css/css_navbar_horizontal.asp */
-  
-  #navbar {
-      position: fixed;
-      top: 0; 
-      left: 0;
-      width: 100%;
-      z-index: 1;
-  }
-  
-  #navbar ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: rgb(2, 95, 168); /* Corrected background color property */
-      align-items: center;
-  }
-    
-  #navbar li {
-      float: left;
-  }
-    
-  #navbar li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 15px 15px;
-      text-decoration: none;
-  }
-    
-  #navbar li a:hover:not(.active) {
-      text-decoration: underline;
-      text-decoration-thickness: 2px;
-  }
-  
-  #uta-logo {
-      width: 40%;
-      height: auto;
-  }
-  /* Navbar CSS End */
-  
   #landing-page {
     position: relative;
   }
