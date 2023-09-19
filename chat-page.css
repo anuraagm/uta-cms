@@ -1,0 +1,84 @@
+#chat-page {
+    margin: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 1%;
+    text-align: left;
+    border: 1px solid #ddd; 
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.message-board {
+    width: 70%; 
+}
+
+.message-card {
+    border: 1px solid #ddd;
+    padding: 2%;
+    height: 45vh; 
+    overflow-y: scroll;
+    display: inline-block;
+}
+
+.message-card .message {
+    padding: 5px;
+    margin: 1%;
+    max-width: 70%;
+}
+
+.message-card .sender {
+    text-align: right;
+    float: right;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 10px 10px 10px 0;
+}
+
+.message-card .receiver {
+    text-align: left;
+    float: left;
+    background-color: #e6e6e6;
+    border-radius: 10px 10px 0 10px;
+}
+
+.message-input {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding: 1%;
+}
+
+.message-input input[type="text"] {
+    flex: 1;
+    padding: 1%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+
+
+.message-input button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 2%;
+    cursor: pointer;
+}
+
+.contact-names {
+    cursor: pointer;
+}
+
+.contact-names:hover {
+    background-color: #bababa;
+}
