@@ -61,3 +61,35 @@ body {
 }
 
 /* Navbar CSS End */
+
+/* Button group css start */
+
+.button-group {
+    display: flex;
+    max-width: 30%;
+    margin-bottom: 3%;
+}
+
+.button {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: #e0e0e0;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cdcdcd;
+}
+
+.button:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+.button:last-child {
+    border-right: none;
+}
+
+/* Button group css end */
