@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>UTA CMS</title>
+        <link rel="stylesheet" href="./chat-page.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,200" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="./styles.css"> 
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <!-- Start of logic for implementing a simple Navbar -->
+        
+        <div id="navbar">
+            <ul>
+                <li><a class="active" href="./homepage.html"><img id="uta-logo" src="./static/uta-logo.png" /></a></li>
+                <li style="float:right; margin-right: 4%;"><a href="./homepage.html"><button class="orange-button">Logout</button></a></li>
+                <li style="float:right"><a href="./course-catalog.html">Course Catalogue</a></li>
+                <li style="float:right"><a href="./chat-page.html">Messages</a></li>
+                <li style="float:right"><a href="#about">Grades</a></li>
+                <li style="float:right"><a href="./user-profile.html">Profile</a></li>
+            </ul>
+        </div>
+
+        <!-- End of Navbar implementation in Homepage -->
+
+        <!-- Dashboard landing page start -->
+
+        <div id="chat-page">
+            <div id="page-label">
+                <h4><a href="./student-dashboard.html">Dashboard</a> >> <a href="./chat-page.html">Messages</a> >> </h4>
+            </div>
+            <div id="username">
+                <h3>View and respond to messages</h3>
+            </div>
+            <div class="single-card" id="profile-card">
+                <table>
+                    <tr>
+                        <th>Contacts</th>
+                        <th>Chat</th>
+                    </tr>
+                    <tr>
+                        <td class="contact-names">Professor</td>
+                        <td class="message-board" rowspan="4">
+                            <div class="message-card">
+                                <div class="message sender">From You: So with regards to the problem in the first exercise,
+                                    how do we perform the second step?
+                                </div>
+                                <div class="message receiver">From Professor: You have to look at the solved example from the 
+                                    class to understand that problem.
+                                </div>
+                            </div>
+                            <div class="message-input">
+                                <input type="text" placeholder="Type your message...">
+                                <button>Send</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="contact-names">TA</td>
+                    </tr>
+                    <tr>
+                        <td class="contact-names">Student</td>
+                    </tr>
+                    <tr>
+                        <td class="contact-names">Project Group</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Dashboard Page Ending -->
+    </body>
+</html>
