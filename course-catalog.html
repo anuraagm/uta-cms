@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>UTA CMS</title>
-        <link rel="stylesheet" href="./student-dashboard.css">
+        <link rel="stylesheet" href="./course-catalog.css">
         <link rel="stylesheet" href="./cards.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,200" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="./styles.css"> 
@@ -25,15 +25,18 @@
 
         <!-- Dashboard landing page start -->
 
-        <div id="dashboard-page">
+        <div id="course-page">
             <div id="page-label">
-                <h4><a href="./student-dashboard.html">Dashboard</a> >> </h4>
+                <h4><a href="./student-dashboard.html">Dashboard</a> >> <a href="./course-catalog.html">Catalogue</a> >> </h4>
             </div>
             <div id="username">
-                <h3>Welcome Username</h3>
+                <h3>Search for any course</h3>
             </div>
             <div class="card-group" id="student-subjects">
-                <h4>Current Courses: </h4>
+                <div class="search-bar">
+                    <input type="text" placeholder="Find Course">
+                    <button type="submit">Go</button>
+                </div>
                 <table>
                     <tr>
                         <td>
@@ -74,11 +77,6 @@
                                     <h4>Fall 2023</h4>
                                 </div>
                             </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="padding-bottom: 0%;">
-                            <h4>Previous Courses: </h4>
                         </td>
                     </tr>
                     <tr>

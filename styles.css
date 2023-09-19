@@ -14,6 +14,10 @@ body {
     border: none;
 }
 
+.orange-button:hover {
+    cursor: pointer;
+}
+
 /* Navbar CSS Start */
   /* Style from https://www.w3schools.com/css/css_navbar_horizontal.asp */
   
