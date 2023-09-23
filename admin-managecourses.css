@@ -1,0 +1,29 @@
+#admin-managecourses-page {
+    margin: 10%;
+}
+table {
+    width: 100%; 
+    table-layout: fixed; 
+}
+
+td {
+    width: 33.33%; 
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 5%; 
+    box-sizing: border-box; 
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+#courseadd-button {
+    text-align: center;
+    color: white;
+    padding: 0% 0%;
+    background-color: rgb(206, 75, 18);
+    border: none;
+    margin-right: 4%;
+}

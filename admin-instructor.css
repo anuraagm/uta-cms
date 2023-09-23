@@ -1,0 +1,21 @@
+#admin-dashboard-page {
+    margin: 5%;
+}
+table {
+    width: 100%; 
+    table-layout: fixed; 
+}
+
+td {
+    width: 33.33%; 
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 5%; 
+    box-sizing: border-box; 
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
