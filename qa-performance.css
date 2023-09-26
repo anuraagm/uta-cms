@@ -1,0 +1,111 @@
+/* Rakesh kasula(1002060973)
+Anudeep Kolluri(1002116426)
+Pramodhini Sai Maddukuri(1002067079)
+Anuraag Muktevi(1002031996)
+Yasasvi Nellore(1002069217) */
+#qa-reports-page {
+    margin: 5%;
+    margin-right: 20%;
+}
+table {
+    width: 100%; 
+    table-layout: fixed; 
+}
+
+td {
+    width: 33.33%; 
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 5%; 
+    box-sizing: border-box; 
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+#grade-page {
+    margin: 5%;
+}
+
+.card {
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* text-align: center; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.column {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+}
+
+/* .column h2 {
+    text-align: right;
+} */
+
+.pie-chart {
+    width: 55%;
+    height:35%;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        green 0% 75%, 
+        red 75% 100%
+    );
+    margin: 0 auto;
+}
+
+.color-legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin: 1%;
+}
+
+.legend-color {
+    width: 2vh;
+    height: 2vh;
+    border-radius: 50%;
+    margin-right: 1%;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.legend-label {
+    font-size: 16px;
+}
+
+#line-img {
+    max-width: 80%;
+    height: auto;
+}
+.button {
+    text-align: center;
+    color: rgb(5, 4, 4);
+    padding: 0% 3%;
+    background-color: rgb(206, 75, 18);
+    border: none;
+    margin-right: 0%;
+}
