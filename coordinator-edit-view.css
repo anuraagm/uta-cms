@@ -1,0 +1,22 @@
+#course-page {
+    margin: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 80%;
+    /* text-align: center; */
+    height: 50vh;
+    display: block;
+    text-align: center;
+    overflow-y: scroll;
+}

@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>UTA CMS</title>
+        <link rel="stylesheet" href="./coordinator-view.css">
+        <link rel="stylesheet" href="./cards.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,200" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="./styles.css"> 
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <!-- Start of logic for implementing a simple Navbar -->
+        
+        <div id="navbar">
+            <ul>
+                <li><a class="active" href="./homepage.html"><img id="uta-logo" src="./static/uta-logo.png" /></a></li>
+                <li style="float:right; margin-right: 4%;"><a href="./homepage.html"><button class="orange-button">Logout</button></a></li>
+                <li style="float:right"><a href="./chat-page.html">Messages</a></li>
+                <li style="float:right"><a href="./user-profile.html">Profile</a></li>
+            </ul>
+        </div>
+
+        <!-- End of Navbar implementation in Homepage -->
+
+        <!-- Dashboard landing page start -->
+
+        <div id="course-page">
+            <div id="page-label">
+                <h4><a href="./coordinator-view.html">Dashboard</a></h4>
+            </div>
+            <div id="username">
+                <h1>Welcome "Username"</h1>
+            </div>
+            <div class="card-group" id="student-subjects">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="card">
+                                <div class="card-blue">
+                                    <h4>
+                                        Manage<br>Program
+                                    </h4>
+                                </div>
+                                <div class="container">
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <a href="coordinator-course-list.html">
+                                <div class="card">
+                                    <div class="card-blue">
+                                        <h4>
+                                            Mange<br>Course Content
+                                        </h4>
+                                    </div>
+                                    <div class="container">
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        <td>
+                            <div class="card">
+                                <div class="card-blue">
+                                    <h4>
+                                        Conduct Course<br>Review
+                                    </h4>
+                                </div>
+                                <div class="container">
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <a href="coordinator-stats-view.html">
+                                <div class="card">
+                                    <div class="card-blue">
+                                        <h4>
+                                            Generate Performance<br>Reports
+                                        </h4>
+                                    </div>
+                                    <div class="container">
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                        </tr>
+                        
+                </table>
+            </div>
+        </div>
+
+        <!-- Dashboard Page Ending -->
+    </body>
+</html>
