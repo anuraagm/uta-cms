@@ -42,6 +42,13 @@ Yasasvi Nellore(1002069217) */
     margin: 2%;
     padding: 20%;
   }
+
+  .card-blue {
+    text-align: center;
+    background-color: #025FA8;
+    margin: 2%;
+    padding: 20%;
+  }
   .card-title4 {
     text-align: center;
     background-color: rgb(2, 95, 168);   
