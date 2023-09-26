@@ -1,7 +1,9 @@
-/* 
-CSS Developed by
-Anuraag Muktevi - 1002031996
-*/
+/* Rakesh kasula(1002060973)
+Anudeep Kolluri(1002116426)
+Pramodhini Sai Maddukuri(1002067079)
+Anuraag Muktevi(1002031996)
+Yasasvi Nellore(1002069217) */
+
 /* Reset default margin and padding for the body element */
 body {
     margin: 0;
@@ -140,4 +142,64 @@ body {
     padding: 0% 35% 0% 35%;
     display: flex;
     justify-content: space-between;
+}
+
+/* Contact form */
+#contact-form {
+    width: 33.33%;
+    margin: 20px auto;
+    text-align: left;
+    background-color: #0169b8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+#contact-form h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: white;
+}
+
+#contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="password"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#contact-form textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+#contact-form input[type="submit"] {
+    background-color: rgb(206, 75, 18);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: rgb(220, 75, 18);
+}
+
+/* Style for form validation errors (optional) */
+#contact-form .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
 }

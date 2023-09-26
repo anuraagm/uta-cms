@@ -1,4 +1,9 @@
 /* Code sourced from https://www.w3schools.com/howto/howto_css_cards.asp */
+/* Rakesh kasula(1002060973)
+Anudeep Kolluri(1002116426)
+Pramodhini Sai Maddukuri(1002067079)
+Anuraag Muktevi(1002031996)
+Yasasvi Nellore(1002069217) */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0.2,0,0,0.2);
     transition: 0.3s;
@@ -46,8 +51,7 @@
   }
   .card-title4 {
     text-align: center;
-    background-color: rgb(2, 95, 168); 
-    margin: 2%;
+    background-color: rgb(2, 95, 168);   
     padding: 20%;
     color:white;
   }

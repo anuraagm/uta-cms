@@ -3,6 +3,27 @@ Anudeep Kolluri(1002116426)
 Pramodhini Sai Maddukuri(1002067079)
 Anuraag Muktevi(1002031996)
 Yasasvi Nellore(1002069217) */
+#admin-reports-page {
+    margin: 5%;
+}
+table {
+    width: 100%; 
+    table-layout: fixed; 
+}
+
+td {
+    width: 33.33%; 
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 5%; 
+    box-sizing: border-box; 
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 #grade-page {
     margin: 5%;
 }
@@ -33,8 +54,8 @@ Yasasvi Nellore(1002069217) */
 } */
 
 .pie-chart {
-    width: 45%;
-    height:65%;
+    width: 55%;
+    height:35%;
     border-radius: 50%;
     background-image: conic-gradient(
         green 0% 75%, 
@@ -79,4 +100,12 @@ Yasasvi Nellore(1002069217) */
 #line-img {
     max-width: 80%;
     height: auto;
+}
+.button {
+    text-align: center;
+    color: rgb(5, 4, 4);
+    padding: 0% 3%;
+    background-color: rgb(206, 75, 18);
+    border: none;
+    margin-right: 0%;
 }

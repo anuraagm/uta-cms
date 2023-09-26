@@ -1,0 +1,98 @@
+/* Rakesh kasula(1002060973)
+Anudeep Kolluri(1002116426)
+Pramodhini Sai Maddukuri(1002067079)
+Anuraag Muktevi(1002031996)
+Yasasvi Nellore(1002069217) */
+
+#forgot {
+    margin-top: 10%;
+}
+
+.forgot-card {
+    max-width: 25%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 1%;
+    padding-left: 0%;
+    padding-top: 0%;
+}
+
+/* Style for form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style for the "Forgot" options */
+.forgot-options {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.forgot-options a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Style for buttons and button container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-button,
+.signup-button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 48%;
+}
+
+.login-button {
+    background-color: rgb(206, 75, 18);
+    color: #fff;
+}
+
+.login-button:hover {
+    background-color: rgb(220, 75, 18);
+}
+
+.signup-button {
+    background-color: transparent;
+    border: 2px solid rgb(206, 75, 18);
+    color: rgb(206, 75, 18);
+}
+
+
+.uta-strip {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 2%;
+    border-radius: 5px 5px 0 0; /* Rounded top corners */
+    width: 100%;
+    text-align: center;
+    top: 0;
+}
+
+.uta-strip h1 {
+    margin: 0;
+    font-size: 24px;
+}

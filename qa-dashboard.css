@@ -3,17 +3,18 @@ Anudeep Kolluri(1002116426)
 Pramodhini Sai Maddukuri(1002067079)
 Anuraag Muktevi(1002031996)
 Yasasvi Nellore(1002069217) */
-#admin-dashboard-page {
+#qa-dashboard-page {
     margin: 5%;
 }
 table {
     width: 100%; 
     table-layout: fixed; 
+    margin-top: 7%;
 }
 
 td {
-    width: 33.33%; 
-    padding: 10%;
+    width: 25%; 
+    padding: 5%;
     padding-top: 0%;
     padding-bottom: 5%; 
     box-sizing: border-box; 
